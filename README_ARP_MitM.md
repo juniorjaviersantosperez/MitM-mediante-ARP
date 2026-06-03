@@ -1,10 +1,16 @@
 # 🛡️ Ataque MitM mediante ARP — Documentación Técnica
 
-**Autor:** Junior Javier Santos Perez  
-**Matrícula:** 2024-1599  
-**Fecha:** 03 de junio de 2026  
-**Herramienta:** `arp_mitm.py`  
-**Plataforma de laboratorio:** GNS3 + Kali Linux 2025.3
+Autor: Junior Javier Santos Perez
+
+Matrícula: 2024-1599
+
+Herramienta: arp_mitm.py
+
+Plataforma de laboratorio: GNS3 + Kali Linux 2025.3
+
+Link video: https://www.youtube.com/watch?v=1hRtG_guLjI 
+
+Enlace GitHub: https://github.com/juniorjaviersantosperez/MitM-mediante-ARP 
 
 ---
 
@@ -244,26 +250,6 @@ XArp        # Detección de ARP Spoofing en tiempo real
 ```
 
 ---
-
-## 📁 Estructura del Repositorio
-
-```
-arp-mitm-attack/
-├── README.md                              ← Este archivo
-├── arp_mitm.py                            ← Script del ataque
-├── images/
-│   ├── imagen_01_topologia.png
-│   ├── imagen_02_tabla_arp_victima_antes.png
-│   ├── imagen_03_ataque_iniciado.png
-│   ├── imagen_04_tabla_arp_victima_envenenada.png
-│   ├── imagen_05_ataque_finalizado.png
-│   └── imagen_06_contramedida_arp_estatico.png
-└── video/
-    └── arp_mitm_demo.mp4                  ← Video de demostración (máx. 5 min)
-```
-
----
-
 ## ⚠️ Aviso Legal / Disclaimer
 
 > Este laboratorio fue realizado en un entorno **completamente controlado y simulado** con fines académicos y de investigación en seguridad informática. El uso de estas técnicas fuera de entornos autorizados es ilegal y contrario a la ética profesional. El autor no se hace responsable del uso indebido de este material.
