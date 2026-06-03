@@ -256,4 +256,3 @@ XArp        # Detección de ARP Spoofing en tiempo real
 
 ---
 
-*Documentación generada para entrega académica — Seguridad en Redes | 2026*
