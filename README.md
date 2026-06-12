@@ -194,14 +194,29 @@ Flujo MitM activo:
 
 Las capturas de pantalla se encuentran almacenadas en la carpeta **`/images/`** del repositorio.
 
-| # | Archivo | Descripción |
-|---|---------|-------------|
-| 1 | `imagen_01_topologia.png` | Topología del laboratorio en GNS3 con nombre y matrícula del estudiante |
-| 2 | `imagen_02_tabla_arp_victima_antes.png` | Tabla ARP de la víctima antes del ataque — MAC legítima del router registrada |
-| 3 | `imagen_03_ataque_iniciado.png` | Script `arp_mitm.py` en ejecución — MACs obtenidas, IP Forwarding activado, envenenamiento iniciado |
-| 4 | `imagen_04_tabla_arp_victima_envenenada.png` | Tabla ARP de la víctima durante el ataque — MAC del router reemplazada por la MAC del atacante |
-| 5 | `imagen_05_ataque_finalizado.png` | Resumen del ataque — 54 paquetes ARP enviados, tablas restauradas correctamente |
-| 6 | `imagen_06_contramedida_arp_estatico.png` | Contramedida aplicada: entrada ARP estática con `arp -s` para fijar la MAC legítima del router |
+## Topología
+
+![Topología](Imagenes/imagen_01_topologia.png)
+
+## Tabla ARP de la Víctima Antes del Ataque
+
+![Tabla ARP Antes](Imagenes/imagen_02_tabla_arp_victima_antes.png)
+
+## Ataque Iniciado
+
+![Ataque Iniciado](Imagenes/imagen_03_ataque_iniciado.png)
+
+## Tabla ARP de la Víctima Envenenada
+
+![Tabla ARP Envenenada](Imagenes/imagen_04_tabla_arp_victima_envenenada.png)
+
+## Ataque Finalizado
+
+![Ataque Finalizado](Imagenes/imagen_05_ataque_finalizado.png)
+
+## Contramedida: ARP Estático
+
+![ARP Estático](Imagenes/imagen_06_contramedida_arp_estatico.png)
 
 ---
 
